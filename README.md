@@ -1,5 +1,4 @@
-# trackyourhealth
-                                                    Final MSc project
+# Track Your Health
 
 Project Description
 
