@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68208F641B900AB300B601BF /* TYHMeasures.m in Sources */ = {isa = PBXBuildFile; fileRef = 68208F631B900AB300B601BF /* TYHMeasures.m */; };
+		68208F691B90241C00B601BF /* TYHActiveTimeData.m in Sources */ = {isa = PBXBuildFile; fileRef = 68208F681B90241C00B601BF /* TYHActiveTimeData.m */; };
+		6885C3401B8D7C61006E6EEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6885C33F1B8D7C61006E6EEC /* main.m */; };
+		6885C3431B8D7C61006E6EEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6885C3421B8D7C61006E6EEC /* AppDelegate.m */; };
+		6885C3491B8D7C61006E6EEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6885C3471B8D7C61006E6EEC /* Main.storyboard */; };
+		6885C34B1B8D7C61006E6EEC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6885C34A1B8D7C61006E6EEC /* Images.xcassets */; };
+		6885C34E1B8D7C61006E6EEC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6885C34C1B8D7C61006E6EEC /* LaunchScreen.xib */; };
+		6885C35A1B8D7C61006E6EEC /* WTTFTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6885C3591B8D7C61006E6EEC /* WTTFTests.m */; };
+		6885C3651B8D8277006E6EEC /* TYHStepTrackerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6885C3641B8D8277006E6EEC /* TYHStepTrackerViewController.m */; };
+		6885C3671B8D82EC006E6EEC /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6885C3661B8D82EC006E6EEC /* CoreMotion.framework */; };
+		6885C36D1B8D86FD006E6EEC /* TYHMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6885C36C1B8D86FD006E6EEC /* TYHMainViewController.m */; };
+		99A6F8121E36832600C5A1C0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99A6F8111E36832600C5A1C0 /* MapKit.framework */; };
+		99A6F8141E3686EA00C5A1C0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99A6F8131E3686EA00C5A1C0 /* CoreLocation.framework */; };
+		99A6F8191E368E7F00C5A1C0 /* HistoricViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A6F8161E368E7F00C5A1C0 /* HistoricViewController.m */; };
+		99A6F81A1E368E7F00C5A1C0 /* DatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A6F8181E368E7F00C5A1C0 /* DatePickerViewController.m */; };
+		99A6F81C1E369E1D00C5A1C0 /* TYH_splash_white.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99A6F81B1E369E1D00C5A1C0 /* TYH_splash_white.jpg */; };
+		99A6F8261E36FD9800C5A1C0 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99A6F8251E36FD9800C5A1C0 /* HealthKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6885C3541B8D7C61006E6EEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6885C3321B8D7C60006E6EEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6885C3391B8D7C60006E6EEC;
+			remoteInfo = WTTF;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		68208F621B900AB300B601BF /* TYHMeasures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TYHMeasures.h; path = Model/TYHMeasures.h; sourceTree = "<group>"; };
+		68208F631B900AB300B601BF /* TYHMeasures.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TYHMeasures.m; path = Model/TYHMeasures.m; sourceTree = "<group>"; };
+		68208F671B90241C00B601BF /* TYHActiveTimeData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TYHActiveTimeData.h; path = Model/TYHActiveTimeData.h; sourceTree = "<group>"; };
+		68208F681B90241C00B601BF /* TYHActiveTimeData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TYHActiveTimeData.m; path = Model/TYHActiveTimeData.m; sourceTree = "<group>"; };
+		6885C33A1B8D7C61006E6EEC /* Track-Your-Health.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Track-Your-Health.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6885C33E1B8D7C61006E6EEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6885C33F1B8D7C61006E6EEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6885C3411B8D7C61006E6EEC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6885C3421B8D7C61006E6EEC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6885C3481B8D7C61006E6EEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6885C34A1B8D7C61006E6EEC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6885C34D1B8D7C61006E6EEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6885C3531B8D7C61006E6EEC /* Track-Your-HealthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Track-Your-HealthTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6885C3581B8D7C61006E6EEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6885C3591B8D7C61006E6EEC /* WTTFTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTTFTests.m; sourceTree = "<group>"; };
+		6885C3631B8D8277006E6EEC /* TYHStepTrackerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TYHStepTrackerViewController.h; path = Model/TYHStepTrackerViewController.h; sourceTree = "<group>"; };
+		6885C3641B8D8277006E6EEC /* TYHStepTrackerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TYHStepTrackerViewController.m; path = Model/TYHStepTrackerViewController.m; sourceTree = "<group>"; };
+		6885C3661B8D82EC006E6EEC /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		6885C36B1B8D86FD006E6EEC /* TYHMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TYHMainViewController.h; path = Model/TYHMainViewController.h; sourceTree = "<group>"; };
+		6885C36C1B8D86FD006E6EEC /* TYHMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TYHMainViewController.m; path = Model/TYHMainViewController.m; sourceTree = "<group>"; };
+		99A6F8111E36832600C5A1C0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		99A6F8131E3686EA00C5A1C0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		99A6F8151E368E7F00C5A1C0 /* HistoricViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HistoricViewController.h; path = "/Downloads/Project Work/Pedometer-master 3/Pedometer/HistoricViewController.h"; sourceTree = "<absolute>"; };
+		99A6F8161E368E7F00C5A1C0 /* HistoricViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HistoricViewController.m; path = "/Downloads/Project Work/Pedometer-master 3/Pedometer/HistoricViewController.m"; sourceTree = "<absolute>"; };
+		99A6F8171E368E7F00C5A1C0 /* DatePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DatePickerViewController.h; path = "/Downloads/Project Work/Pedometer-master 3/Pedometer/DatePickerViewController.h"; sourceTree = "<absolute>"; };
+		99A6F8181E368E7F00C5A1C0 /* DatePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DatePickerViewController.m; path = "/Downloads/Project Work/Pedometer-master 3/Pedometer/DatePickerViewController.m"; sourceTree = "<absolute>"; };
+		99A6F81B1E369E1D00C5A1C0 /* TYH_splash_white.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TYH_splash_white.jpg; sourceTree = "<group>"; };
+		99A6F81D1E36FAA300C5A1C0 /* WTTF.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WTTF.entitlements; sourceTree = "<group>"; };
+		99A6F8251E36FD9800C5A1C0 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6885C3371B8D7C60006E6EEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99A6F8141E3686EA00C5A1C0 /* CoreLocation.framework in Frameworks */,
+				99A6F8261E36FD9800C5A1C0 /* HealthKit.framework in Frameworks */,
+				99A6F8121E36832600C5A1C0 /* MapKit.framework in Frameworks */,
+				6885C3671B8D82EC006E6EEC /* CoreMotion.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6885C3501B8D7C61006E6EEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6885C3311B8D7C60006E6EEC = {
+			isa = PBXGroup;
+			children = (
+				6885C33C1B8D7C61006E6EEC /* TYH */,
+				6885C3561B8D7C61006E6EEC /* WTTFTests */,
+				6885C33B1B8D7C61006E6EEC /* Products */,
+				99A6F8101E36832500C5A1C0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6885C33B1B8D7C61006E6EEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6885C33A1B8D7C61006E6EEC /* Track-Your-Health.app */,
+				6885C3531B8D7C61006E6EEC /* Track-Your-HealthTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6885C33C1B8D7C61006E6EEC /* TYH */ = {
+			isa = PBXGroup;
+			children = (
+				99A6F81D1E36FAA300C5A1C0 /* WTTF.entitlements */,
+				6885C3411B8D7C61006E6EEC /* AppDelegate.h */,
+				6885C36B1B8D86FD006E6EEC /* TYHMainViewController.h */,
+				6885C36C1B8D86FD006E6EEC /* TYHMainViewController.m */,
+				68208F621B900AB300B601BF /* TYHMeasures.h */,
+				68208F631B900AB300B601BF /* TYHMeasures.m */,
+				68208F671B90241C00B601BF /* TYHActiveTimeData.h */,
+				68208F681B90241C00B601BF /* TYHActiveTimeData.m */,
+				99A6F8151E368E7F00C5A1C0 /* HistoricViewController.h */,
+				99A6F8161E368E7F00C5A1C0 /* HistoricViewController.m */,
+				99A6F8171E368E7F00C5A1C0 /* DatePickerViewController.h */,
+				99A6F8181E368E7F00C5A1C0 /* DatePickerViewController.m */,
+				6885C3421B8D7C61006E6EEC /* AppDelegate.m */,
+				6885C3471B8D7C61006E6EEC /* Main.storyboard */,
+				6885C34A1B8D7C61006E6EEC /* Images.xcassets */,
+				6885C34C1B8D7C61006E6EEC /* LaunchScreen.xib */,
+				6885C3631B8D8277006E6EEC /* TYHStepTrackerViewController.h */,
+				6885C3641B8D8277006E6EEC /* TYHStepTrackerViewController.m */,
+				6885C33D1B8D7C61006E6EEC /* Supporting Files */,
+			);
+			name = TYH;
+			path = WTTF;
+			sourceTree = "<group>";
+		};
+		6885C33D1B8D7C61006E6EEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				99A6F81B1E369E1D00C5A1C0 /* TYH_splash_white.jpg */,
+				6885C33E1B8D7C61006E6EEC /* Info.plist */,
+				6885C33F1B8D7C61006E6EEC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6885C3561B8D7C61006E6EEC /* WTTFTests */ = {
+			isa = PBXGroup;
+			children = (
+				6885C3591B8D7C61006E6EEC /* WTTFTests.m */,
+				6885C3571B8D7C61006E6EEC /* Supporting Files */,
+			);
+			path = WTTFTests;
+			sourceTree = "<group>";
+		};
+		6885C3571B8D7C61006E6EEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6885C3581B8D7C61006E6EEC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		99A6F8101E36832500C5A1C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6885C3661B8D82EC006E6EEC /* CoreMotion.framework */,
+				99A6F8251E36FD9800C5A1C0 /* HealthKit.framework */,
+				99A6F8131E3686EA00C5A1C0 /* CoreLocation.framework */,
+				99A6F8111E36832600C5A1C0 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6885C3391B8D7C60006E6EEC /* Track-Your-Health */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6885C35D1B8D7C61006E6EEC /* Build configuration list for PBXNativeTarget "Track-Your-Health" */;
+			buildPhases = (
+				6885C3361B8D7C60006E6EEC /* Sources */,
+				6885C3371B8D7C60006E6EEC /* Frameworks */,
+				6885C3381B8D7C60006E6EEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Track-Your-Health";
+			productName = WTTF;
+			productReference = 6885C33A1B8D7C61006E6EEC /* Track-Your-Health.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6885C3521B8D7C61006E6EEC /* Track-Your-HealthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6885C3601B8D7C61006E6EEC /* Build configuration list for PBXNativeTarget "Track-Your-HealthTests" */;
+			buildPhases = (
+				6885C34F1B8D7C61006E6EEC /* Sources */,
+				6885C3501B8D7C61006E6EEC /* Frameworks */,
+				6885C3511B8D7C61006E6EEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6885C3551B8D7C61006E6EEC /* PBXTargetDependency */,
+			);
+			name = "Track-Your-HealthTests";
+			productName = WTTFTests;
+			productReference = 6885C3531B8D7C61006E6EEC /* Track-Your-HealthTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6885C3321B8D7C60006E6EEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = dmu;
+				TargetAttributes = {
+					6885C3391B8D7C60006E6EEC = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = D33373BDNA;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
+					};
+					6885C3521B8D7C61006E6EEC = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 6885C3391B8D7C60006E6EEC;
+					};
+				};
+			};
+			buildConfigurationList = 6885C3351B8D7C60006E6EEC /* Build configuration list for PBXProject "Track-Your-Health" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6885C3311B8D7C60006E6EEC;
+			productRefGroup = 6885C33B1B8D7C61006E6EEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6885C3391B8D7C60006E6EEC /* Track-Your-Health */,
+				6885C3521B8D7C61006E6EEC /* Track-Your-HealthTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6885C3381B8D7C60006E6EEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6885C3491B8D7C61006E6EEC /* Main.storyboard in Resources */,
+				6885C34E1B8D7C61006E6EEC /* LaunchScreen.xib in Resources */,
+				6885C34B1B8D7C61006E6EEC /* Images.xcassets in Resources */,
+				99A6F81C1E369E1D00C5A1C0 /* TYH_splash_white.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6885C3511B8D7C61006E6EEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6885C3361B8D7C60006E6EEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99A6F81A1E368E7F00C5A1C0 /* DatePickerViewController.m in Sources */,
+				6885C36D1B8D86FD006E6EEC /* TYHMainViewController.m in Sources */,
+				99A6F8191E368E7F00C5A1C0 /* HistoricViewController.m in Sources */,
+				6885C3651B8D8277006E6EEC /* TYHStepTrackerViewController.m in Sources */,
+				6885C3431B8D7C61006E6EEC /* AppDelegate.m in Sources */,
+				68208F641B900AB300B601BF /* TYHMeasures.m in Sources */,
+				6885C3401B8D7C61006E6EEC /* main.m in Sources */,
+				68208F691B90241C00B601BF /* TYHActiveTimeData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6885C34F1B8D7C61006E6EEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6885C35A1B8D7C61006E6EEC /* WTTFTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6885C3551B8D7C61006E6EEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6885C3391B8D7C60006E6EEC /* Track-Your-Health */;
+			targetProxy = 6885C3541B8D7C61006E6EEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6885C3471B8D7C61006E6EEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6885C3481B8D7C61006E6EEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6885C34C1B8D7C61006E6EEC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6885C34D1B8D7C61006E6EEC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6885C35B1B8D7C61006E6EEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6885C35C1B8D7C61006E6EEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6885C35E1B8D7C61006E6EEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WTTF/WTTF.entitlements;
+				DEVELOPMENT_TEAM = D33373BDNA;
+				INFOPLIST_FILE = WTTF/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dmu.msc.rahulanand;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6885C35F1B8D7C61006E6EEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WTTF/WTTF.entitlements;
+				DEVELOPMENT_TEAM = D33373BDNA;
+				INFOPLIST_FILE = WTTF/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dmu.msc.rahulanand;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6885C3611B8D7C61006E6EEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WTTFTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ajmg.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Track-Your-Health.app/Track-Your-Health";
+			};
+			name = Debug;
+		};
+		6885C3621B8D7C61006E6EEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WTTFTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ajmg.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Track-Your-Health.app/Track-Your-Health";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6885C3351B8D7C60006E6EEC /* Build configuration list for PBXProject "Track-Your-Health" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6885C35B1B8D7C61006E6EEC /* Debug */,
+				6885C35C1B8D7C61006E6EEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6885C35D1B8D7C61006E6EEC /* Build configuration list for PBXNativeTarget "Track-Your-Health" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6885C35E1B8D7C61006E6EEC /* Debug */,
+				6885C35F1B8D7C61006E6EEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6885C3601B8D7C61006E6EEC /* Build configuration list for PBXNativeTarget "Track-Your-HealthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6885C3611B8D7C61006E6EEC /* Debug */,
+				6885C3621B8D7C61006E6EEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6885C3321B8D7C60006E6EEC /* Project object */;
+}
